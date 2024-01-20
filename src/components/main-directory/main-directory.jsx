@@ -1,6 +1,5 @@
 import "./main-directory.css";
 import { useState } from "react";
-
 import { Link } from "react-router-dom";
 
 const MainDirectory = () => {
@@ -38,7 +37,10 @@ const MainDirectory = () => {
           </span>
         </h1>
         <h1 className="text">
-          PRASURJYA<span>PROJECTS</span>
+          PRASURJYA
+          <span>
+            <Link to={"/project-page"}>PROJECTS</Link>
+          </span>
         </h1>
         <h1 className="text">
           SARMA
