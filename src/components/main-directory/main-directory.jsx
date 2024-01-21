@@ -1,6 +1,9 @@
 import "./main-directory.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import SendMeMessage from "../send-me-message/send-me-message";
 
 const MainDirectory = () => {
@@ -13,6 +16,10 @@ const MainDirectory = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   const [hoverText, setHoverText] = useState(
     "Try hovering over the above texts☝🏻"
@@ -35,6 +42,7 @@ const MainDirectory = () => {
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-right"
         >
           HI
           <span>
@@ -47,6 +55,7 @@ const MainDirectory = () => {
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-right"
         >
           I AM
           <span>
@@ -61,6 +70,7 @@ const MainDirectory = () => {
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-left"
         >
           PRASURJYA
           <span>
@@ -73,6 +83,7 @@ const MainDirectory = () => {
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-left"
         >
           SARMA
           <span>
@@ -85,21 +96,23 @@ const MainDirectory = () => {
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-right"
         >
           A FRONT-END
           <span onClick={handleResumeClick}>RESUME</span>
         </h1>
         <h1
           className="text"
-          onMouseEnter={() => setHoverText("Connect with me in Linkedin 🙃")}
+          onMouseEnter={() => setHoverText("Send me a text 🙃")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
+          data-aos="fade-right"
         >
           WEB DEVELOPER
           <span onClick={handleConnectClick}>LET'S CONNECT</span>
         </h1>
-        <h3>{hoverText}</h3>
+        <h3 data-aos="fade-in">{hoverText}</h3>
       </div>
 
       {isSendMeMessageVisible && (

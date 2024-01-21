@@ -10,7 +10,18 @@
   flex: 1;
   max-width: 600px;
 }
-
+.social-section {
+  display: flex;
+  gap: 40px;
+}
+i {
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 35px;
+}
+i:hover {
+  transform: scale(1.2);
+}
 .about-content h2 {
   font-size: 3.5rem;
   color: wheat;

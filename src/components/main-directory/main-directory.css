@@ -111,6 +111,7 @@ img {
     padding-left: 10px;
     margin-right: 5%;
     margin-left: 5%;
+    overflow-x: hidden;
   }
   h3 {
     margin-top: 15px;

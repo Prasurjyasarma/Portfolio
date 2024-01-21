@@ -20,6 +20,35 @@ const AboutPage = () => {
           exciting projects and collaborations. Let's connect and build
           something amazing!
         </p>
+        <div className="social-section">
+          <p>
+            <a
+              href="https://github.com/Prasurjyasarma"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.instagram.com/prasurjya_sarma/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/prasurjya-sarma-23b047218/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </p>
+        </div>
       </div>
       <div className="about-images" data-aos="fade-left">
         <img
