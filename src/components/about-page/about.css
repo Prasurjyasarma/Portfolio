@@ -12,8 +12,8 @@
 }
 
 .about-content h2 {
-  font-size: 2rem;
-  color: #ffffff;
+  font-size: 3.5rem;
+  color: wheat;
   margin-bottom: 10px;
 }
 
@@ -55,6 +55,7 @@
     margin-right: 10px;
   }
   .about-content p {
+    text-align: left;
     font-size: 1.1rem;
     line-height: 1.6;
     color: #929191;

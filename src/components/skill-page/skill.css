@@ -4,8 +4,8 @@
 }
 
 .skills-title {
-  color: #ffffff;
-  font-size: 50px;
+  color: wheat;
+  font-size: 60px;
 }
 
 .skills-table {
@@ -44,7 +44,7 @@
 
 .progress-bar {
   height: 100%;
-  background-color: #4caf50; /* Green color */
+  background-color: #4a944d; /* Green color */
   transition: width 0.3s ease-in-out;
   animation: loadAnimation 1s ease-out; /* Apply the animation */
 }

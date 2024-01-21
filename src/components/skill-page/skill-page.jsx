@@ -2,13 +2,12 @@ import "./skill.css";
 
 const Skills = () => {
   const skillsData = [
-    { name: "Apple", progress: 80 },
-    { name: "Banana", progress: 60 },
-    { name: "Orange", progress: 75 },
-    { name: "Grapes", progress: 90 },
-    { name: "Kiwi", progress: 70 },
-    { name: "Mango", progress: 85 },
-    { name: "Pineapple", progress: 50 },
+    { name: "HTML", progress: 90 },
+    { name: "CSS", progress: 90 },
+    { name: "JS", progress: 85 },
+    { name: "REACT", progress: 70 },
+    { name: "REDUX", progress: 50 },
+    { name: "FIGMA", progress: 85 },
   ];
 
   return (
@@ -17,7 +16,7 @@ const Skills = () => {
       <table className="skills-table">
         <thead>
           <tr>
-            <th>Skill</th>
+            <th>Skills</th>
             <th>Progress</th>
           </tr>
         </thead>

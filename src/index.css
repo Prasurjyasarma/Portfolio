@@ -14,6 +14,23 @@ body {
   background-image: linear-gradient(315deg, #0d0d0d 10%, #000000 84%);
 }
 
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222222; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6e6d6d; /* Thumb color */
+  border-radius: 2px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff; /* Thumb color on hover */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
