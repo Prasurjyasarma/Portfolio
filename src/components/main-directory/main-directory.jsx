@@ -36,9 +36,9 @@ const MainDirectory = () => {
   return (
     <>
       <div className="container">
-        <h1
+        <h4
           className="text"
-          onMouseEnter={() => setHoverText("Know about me 🤓")}
+          onMouseEnter={() => setHoverText("Get to know me")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -48,10 +48,10 @@ const MainDirectory = () => {
           <span>
             <Link to={"/about-page"}>ABOUT ME</Link>
           </span>
-        </h1>
-        <h1
+        </h4>
+        <h4
           className="text"
-          onMouseEnter={() => setHoverText("Know about my skill sets 🤠")}
+          onMouseEnter={() => setHoverText("What I bring to the table")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -61,12 +61,10 @@ const MainDirectory = () => {
           <span>
             <Link to={"/skill-page"}>SKILLS</Link>
           </span>
-        </h1>
-        <h1
+        </h4>
+        <h5
           className="text"
-          onMouseEnter={() =>
-            setHoverText("Know about the things that I have build 👷🏻‍♂️")
-          }
+          onMouseEnter={() => setHoverText("Ideas i have built")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -76,10 +74,10 @@ const MainDirectory = () => {
           <span>
             <Link to={"/project-page"}>PROJECTS</Link>
           </span>
-        </h1>
-        <h1
+        </h5>
+        <h6
           className="text"
-          onMouseEnter={() => setHoverText("Know about my past experiences 😌")}
+          onMouseEnter={() => setHoverText("Dive into my experiences")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -89,10 +87,10 @@ const MainDirectory = () => {
           <span>
             <Link to={"/experience-page"}>EXPERIENCE</Link>
           </span>
-        </h1>
-        <h1
+        </h6>
+        <h4
           className="text"
-          onMouseEnter={() => setHoverText("Check out my resume 😇")}
+          onMouseEnter={() => setHoverText("Check out my resume")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -100,10 +98,10 @@ const MainDirectory = () => {
         >
           A FRONT-END
           <span onClick={handleResumeClick}>RESUME</span>
-        </h1>
-        <h1
+        </h4>
+        <h4
           className="text"
-          onMouseEnter={() => setHoverText("Send me a text 🙃")}
+          onMouseEnter={() => setHoverText("Drop me a text")}
           onMouseLeave={() =>
             setHoverText("Try hovering over the above texts☝🏻")
           }
@@ -111,7 +109,7 @@ const MainDirectory = () => {
         >
           WEB DEVELOPER
           <span onClick={handleConnectClick}>LET'S CONNECT</span>
-        </h1>
+        </h4>
         <h3 data-aos="fade-in">{hoverText}</h3>
       </div>
 

@@ -52,7 +52,7 @@ h1 {
 .project-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #7f42ce;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -60,7 +60,7 @@ h1 {
 }
 
 .project-button:hover {
-  background-color: #0056b3;
+  background-color: #7f42ce94;
 }
 
 @media (max-width: 768px) {

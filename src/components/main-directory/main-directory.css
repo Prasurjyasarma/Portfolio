@@ -8,14 +8,24 @@
   margin-left: 10%;
 }
 
+h4 {
+  font-size: 4vw;
+  color: rgb(102, 101, 101);
+}
+h5 {
+  font-size: 7vw;
+  color: rgb(255, 255, 255);
+}
+h6 {
+  font-size: 6vw;
+  color: rgb(255, 255, 255);
+}
 .text {
   cursor: pointer;
-  font-size: 5vw;
   letter-spacing: -0.01em;
   line-height: 100%;
   margin: 0;
   width: 100%;
-  color: rgba(226, 223, 223, 0.808);
   background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
@@ -88,12 +98,12 @@ img {
 @media (max-width: 768px) {
   .text {
     cursor: pointer;
-    font-size: 10vw;
+
     letter-spacing: -0.01em;
     line-height: 100%;
     margin: 0;
     width: 100%;
-    color: rgba(255, 253, 253, 0.699);
+
     background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
@@ -116,5 +126,17 @@ img {
   h3 {
     margin-top: 15px;
     font-size: 14px;
+  }
+  h4 {
+    font-size: 30px;
+    color: rgb(102, 101, 101);
+  }
+  h5 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+  h6 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
   }
 }
