@@ -7,16 +7,6 @@ import "aos/dist/aos.css";
 import SendMeMessage from "../send-me-message/send-me-message";
 
 const MainDirectory = () => {
-  const handleResumeClick = () => {
-    const pdfPath = "./Resume.pdf";
-    const link = document.createElement("a");
-    link.href = pdfPath;
-    link.download = "Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -97,7 +87,11 @@ const MainDirectory = () => {
           data-aos="fade-right"
         >
           A FRONT-END
-          <span onClick={handleResumeClick}>RESUME</span>
+          <span>
+            <Link to={"/resume-page"} target="_blank">
+              RESUME
+            </Link>
+          </span>
         </h4>
         <h4
           className="text"

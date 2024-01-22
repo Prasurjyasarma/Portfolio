@@ -3,6 +3,7 @@ import AboutPage from "./components/about-page/about-page";
 import Skills from "./components/skill-page/skill-page";
 import Projects from "./components/project-page/project-page";
 import Experience from "./components/experience-page/expericence-page";
+import Resume from "./components/resume-page/resume";
 
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
@@ -15,6 +16,7 @@ function App() {
       <Route path="/skill-page" element={<Skills />} />
       <Route path="/project-page" element={<Projects />} />
       <Route path="/experience-page" element={<Experience />} />
+      <Route path="/resume-page" element={<Resume />} />
     </Routes>
   );
 }

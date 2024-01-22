@@ -9,9 +9,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
-  overflow-x: hidden;
-  background-image: linear-gradient(315deg, #0d0d0d 10%, #000000 84%);
+  background-image: linear-gradient(315deg, #0e0e0e 10%, #000000 84%);
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar {

@@ -37,6 +37,7 @@ h6 {
   align-items: flex-start;
   justify-content: center;
   position: relative;
+  padding: 5px;
 }
 
 span {
