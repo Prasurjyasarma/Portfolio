@@ -99,12 +99,10 @@ img {
 @media (max-width: 768px) {
   .text {
     cursor: pointer;
-
     letter-spacing: -0.01em;
     line-height: 100%;
     margin: 0;
     width: 100%;
-
     background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
