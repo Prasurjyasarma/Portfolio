@@ -88,9 +88,7 @@ const MainDirectory = () => {
         >
           A FRONT-END
           <span>
-            <Link to={"/resume-page"} target="_blank">
-              RESUME
-            </Link>
+            <Link to={"/resume-page"}>RESUME</Link>
           </span>
         </h4>
         <h4
