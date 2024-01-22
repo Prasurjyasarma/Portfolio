@@ -6,7 +6,17 @@
   border-radius: 10px;
   padding: 20px;
 }
-
+.thank-you-message {
+  background-color: none;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+.p-tag {
+  font-size: 25px;
+}
 form {
   display: grid;
   grid-gap: 15px;
@@ -52,5 +62,9 @@ button:hover {
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
+  }
+  .p-tag {
+    font-size: 20px;
+    line-height: 30px;
   }
 }

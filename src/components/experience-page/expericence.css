@@ -5,6 +5,7 @@
   height: 100vh;
   color: white;
   padding: 20px;
+  overflow-y: hidden;
 }
 
 .card {
