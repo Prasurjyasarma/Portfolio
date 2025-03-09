@@ -14,7 +14,7 @@ import img8 from "../../Assets/Sound.png"; //Text
 
 const Projects = () => {
   useEffect(() => {
-    Aos.init({ duration: 1200 });
+    Aos.init({ duration: 1200, offset: 170 });
   }, []);
 
   return (
