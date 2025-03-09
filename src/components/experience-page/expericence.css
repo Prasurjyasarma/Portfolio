@@ -5,18 +5,19 @@
   height: 100vh;
   color: white;
   padding: 20px;
+  gap: 20px;
 }
 
 .card {
   border-radius: 20px;
   background: linear-gradient(-225deg, #65379b 0%, #886aea 53%, #6457c6 100%);
-  padding: 16px;
-  width: 48%;
-  height: 50%;
+  padding: 18px;
+  width: 38%;
+  height: 60%;
   box-sizing: border-box;
 }
 .card h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-bottom: 10px;
   color: #ffffff;
 }
@@ -29,7 +30,7 @@ ul {
 li {
   margin-bottom: 8px;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Add media query for responsiveness */

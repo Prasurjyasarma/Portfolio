@@ -13,12 +13,14 @@ const AboutPage = () => {
       <div className="about-content" data-aos="fade-in">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Prasurjya Sarma, a Front-End Web Developer skilled in HTML,
-          CSS, JavaScript, React, and Redux. I specialize in creating responsive
-          and user-friendly interfaces. Passionate about clean code, I transform
-          creative ideas into seamless digital experiences. Currently open to
-          exciting projects and collaborations. Let's connect and build
-          something amazing!
+          Hi, I'm Prasurjya Sarma, a developer skilled in HTML, CSS, JavaScript,
+          React, and Redux. While I started as a Front-End Developer, I’ve
+          expanded into Python, data analytics, and automation, working on
+          various analytics projects and automation scripts. I specialize in
+          building responsive interfaces and leveraging data-driven solutions to
+          enhance efficiency. Passionate about clean code and seamless digital
+          experiences, I’m open to exciting projects and collaborations—let’s
+          connect!
         </p>
         <div className="social-section">
           <p>

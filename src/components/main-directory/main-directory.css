@@ -10,10 +10,12 @@
 
 h4 {
   font-size: 4vw;
+  font-weight: bolder;
   color: rgb(102, 101, 101);
 }
 h5 {
   font-size: 7vw;
+  font-weight: 900git merge origin/main;
   color: rgb(255, 255, 255);
 }
 h6 {

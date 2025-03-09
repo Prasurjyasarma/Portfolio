@@ -39,6 +39,27 @@ const Experience = () => {
           </li>
         </ul>
       </div>
+      <div className="card" data-aos="fade-left">
+        <h1>Accenture</h1>
+        <ul>
+          <li>
+            Executed SQL scripts to support various project requirements and
+            data operations.
+          </li>
+          <li>
+            Collaborated with requesters to provide necessary assistance and
+            ensure smooth execution of tasks.
+          </li>
+          <li>
+            Developed an automation script that generates and sends a weekly
+            report to the team.
+          </li>
+          <li>
+            Worked with the automation team to streamline the process of
+            executing SQL scripts in an automated manner.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
