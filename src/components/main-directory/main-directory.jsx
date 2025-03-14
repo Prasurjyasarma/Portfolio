@@ -86,7 +86,7 @@ const MainDirectory = () => {
           }
           data-aos="fade-right"
         >
-          A FRONT-END
+          VERSATILE
           <span>
             <Link to={"/resume-page"}>RESUME</Link>
           </span>
@@ -99,7 +99,7 @@ const MainDirectory = () => {
           }
           data-aos="fade-right"
         >
-          WEB DEVELOPER
+          DEVELOPER
           <span onClick={handleConnectClick}>LET'S CONNECT</span>
         </h4>
         <h3 data-aos="fade-in">{hoverText}</h3>

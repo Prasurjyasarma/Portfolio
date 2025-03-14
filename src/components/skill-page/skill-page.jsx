@@ -2,7 +2,8 @@ import "./skill.css";
 
 const Skills = () => {
   const skillsData = [
-    { name: "PYHTON", progress: 75 },
+    { name: "PYHTON", progress: 85 },
+    { name: "DJANGO", progress: 75 },
     { name: "HTML", progress: 90 },
     { name: "CSS", progress: 85 },
     { name: "JAVASCRIPT", progress: 70 },

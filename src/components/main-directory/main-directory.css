@@ -46,7 +46,7 @@ span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #7f42ce;
+  background-color: rgb(90, 238, 134);
   color: #0d0d0d;
   clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
   transform-origin: center;
